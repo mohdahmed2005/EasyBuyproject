@@ -54,6 +54,7 @@ public class ProductService {
         productDao.deleteById(productId);
         System.out.println("=========================");
         System.out.println(".............................");
+        System.out.println("welcome to the backend ");
         
     }
     
