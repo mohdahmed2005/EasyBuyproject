@@ -52,7 +52,10 @@ public class ProductService {
 
     public void deleteProductDetails(Integer productId) {
         productDao.deleteById(productId);
+        System.out.println("=========================");
     }
+    
+   
 
     public List<Product> getProductDetails(boolean isSingleProductCheckout, Integer productId) {
         if(isSingleProductCheckout && productId != 0) {
