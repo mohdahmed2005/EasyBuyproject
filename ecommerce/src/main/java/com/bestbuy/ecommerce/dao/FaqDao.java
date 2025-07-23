@@ -1,9 +1,0 @@
-package com.bestbuy.ecommerce.dao;
-
-import java.util.List;
-
-import com.bestbuy.ecommerce.entity.Faq;
-
-public interface FaqDao {
-    List<Faq> getAllFaqs();
-}

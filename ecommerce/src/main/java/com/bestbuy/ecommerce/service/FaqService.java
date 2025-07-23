@@ -1,9 +1,0 @@
-package com.bestbuy.ecommerce.service;
-
-import java.util.List;
-
-import com.bestbuy.ecommerce.entity.Faq;
-
-public interface FaqService {
-    List<Faq> getAllFaqs();
-}
