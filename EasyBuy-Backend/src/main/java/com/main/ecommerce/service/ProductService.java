@@ -31,6 +31,7 @@ public class ProductService {
 
     public Product addNewProduct(Product product) {
     	System.out.println("updated from other repo");
+    	System.out.println("update main repo");
         return productDao.save(product);
     }
 
