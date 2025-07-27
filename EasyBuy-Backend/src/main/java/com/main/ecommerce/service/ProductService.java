@@ -30,7 +30,7 @@ public class ProductService {
     private CartDao cartDao;
 
     public Product addNewProduct(Product product) {
-    	System.out.println("inside add method updateded");
+    	System.out.println("inside add method updateded1");
         return productDao.save(product);
     }
 

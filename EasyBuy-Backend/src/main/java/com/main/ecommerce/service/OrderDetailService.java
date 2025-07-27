@@ -39,7 +39,7 @@ public class OrderDetailService {
 
     public List<OrderDetail> getAllOrderDetails(String status) {
         List<OrderDetail> orderDetails = new ArrayList<>();
-      System.out.println("inside get method");
+      System.out.println("inside get method1");
         if(status.equals("All")) {
             orderDetailDao.findAll().forEach(
                     x -> orderDetails.add(x)
