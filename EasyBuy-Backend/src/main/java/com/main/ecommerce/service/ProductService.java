@@ -30,7 +30,7 @@ public class ProductService {
     private CartDao cartDao;
 
     public Product addNewProduct(Product product) {
-    	System.out.println("updated from other repo1");
+    	System.out.println("doing update");
         return productDao.save(product);
     }
 
